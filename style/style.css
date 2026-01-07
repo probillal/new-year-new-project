@@ -39,3 +39,87 @@
   font-size: 20px;
   font-weight: 600;
 }
+.failur-container {
+  max-width: 1072px;
+  margin: 130px auto;
+  display: flex;
+  align-items: center;
+  gap: 87px;
+}
+.failur-container h2 {
+  max-width: 288px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.failur-container p {
+  max-width: 416px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #444343;
+  margin-bottom: 24px;
+  line-height: 26px;
+}
+.failur-container li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #444343;
+  margin-bottom: 5px;
+  color: #444343;
+}
+
+.plan-container h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #151414;
+  text-align: center;
+  /* margin-top: 130px; */
+  /* margin-bottom: 50px; */
+}
+.plan-card {
+  display: flex;
+  max-width: 1141px;
+  margin: 0 auto;
+  text-align: center;
+  gap: 90px;
+}
+
+.plan-card img {
+  margin-top: 90px;
+}
+.plan-card h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #151414;
+}
+.plan-card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #9b9999;
+}
+.watch-container {
+  max-width: 1140px;
+  height: 300px;
+  margin: 130px auto;
+  background: linear-gradient(to right, #d35221, transparent),
+    url(../images/watch.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.watch-container h2 {
+  max-width: 460px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  padding: 60px 0 0 65px;
+}
+
+.btn-white {
+  padding: 20px 36px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 64px;
+  margin-top: 43px;
+}
